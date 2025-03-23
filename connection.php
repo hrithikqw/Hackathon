@@ -10,7 +10,7 @@ if (session_status() === PHP_SESSION_NONE) {
 // MySQL Database Configuration
 $host     = "127.0.0.1";  // Using IP instead of 'localhost' often avoids socket issues
 $user     = "root";
-$password = "";           // Default in XAMPP is empty
+$password = "";            // Default in XAMPP is empty
 $database = "demo_db";     // Change to your actual database name
 $port     = 3306;         // Change if your MySQL runs on a custom port (3306 is default)
 
